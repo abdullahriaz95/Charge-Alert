@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Charge Alert</string>
+    <string name="button_text">Set/Remove Alert</string>
+    <string name="sharedPreferencesFile">hz.chargealert.sharedPreferencesFile</string>
+    <string name="buttonSetting">buttonSetting</string>
+    <string name="title_activity_alarm">Battery Fully Charged</string>
+    <string name="turnOffAlarmButtonText">Turn Off</string>
+    <string name="alertSet">Remove Alert</string>
+    <string name="alertNotSet">Set Alert</string>
+    <string name="instructions">To set the alert click on the button below. <b>Do not close the app from the app drawer otherwise it will not work.</b>
+    You can minimize the app.</string>
+    <string name="channel_name">Default Notifications</string>
+    <string name="channel_description">Keep this notification ON at all times</string>
+    <string name="channel_name2">Notification for when the phone is plugged in</string>
+    <string name="channel_description2">This notification is shown when the phone is connected to the charger</string>
+    <string name="channel_name3">Alert Set Notification</string>
+</resources>
