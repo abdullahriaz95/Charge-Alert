@@ -1,4 +1,6 @@
 apply plugin: 'com.android.application'
+apply plugin: 'kotlin-android-extensions'
+apply plugin: 'kotlin-android'
 
 android {
     compileSdkVersion 27
@@ -6,9 +8,9 @@ android {
         applicationId "hz.chargealert"
         minSdkVersion 16
         targetSdkVersion 27
-        versionName '2.1'
+        versionName '3.0'
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
-        versionCode 8
+        versionCode 9
     }
     buildTypes {
         release {
@@ -27,4 +29,13 @@ dependencies {
     testImplementation 'junit:junit:4.12'
     androidTestImplementation 'com.android.support.test:runner:1.0.2'
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
+    implementation 'com.android.support:support-compat:27.1.1'
+    //wave
+    implementation 'me.itangqi.waveloadingview:library:0.3.5'
+    //timber
+    implementation 'com.jakewharton.timber:timber:4.7.1'
+}
+repositories {
+    mavenCentral()
 }

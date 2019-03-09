@@ -1,17 +1,12 @@
 <resources>
     <string name="app_name">Charge Alert</string>
-    <string name="button_text">Set/Remove Alert</string>
+    <string name="setAlert">Set Alert</string>
+    <string name="removeAlert">Remove Alert</string>
+    <string name="seekBarLabel">Select when to sound the alarm:</string>
+    <string name="battery_full_notification_name">Default Notifications</string>
+    <string name="battery_full_notification_description">Keep this notification ON at all times</string>
+    <string name="alarm_set_notification_name">This is used to notify when the alarm is set</string>
     <string name="sharedPreferencesFile">hz.chargealert.sharedPreferencesFile</string>
     <string name="buttonSetting">buttonSetting</string>
-    <string name="title_activity_alarm">Battery Fully Charged</string>
-    <string name="turnOffAlarmButtonText">Turn Off</string>
-    <string name="alertSet">Remove Alert</string>
-    <string name="alertNotSet">Set Alert</string>
-    <string name="instructions">To set the alert click on the button below. <b>Do not close the app from the app drawer otherwise it will not work.</b>
-    You can minimize the app.</string>
-    <string name="channel_name">Default Notifications</string>
-    <string name="channel_description">Keep this notification ON at all times</string>
-    <string name="channel_name2">Notification for when the phone is plugged in</string>
-    <string name="channel_description2">This notification is shown when the phone is connected to the charger</string>
-    <string name="channel_name3">Alert Set Notification</string>
+    <string name="batteryValue">batteryValue</string>
 </resources>
